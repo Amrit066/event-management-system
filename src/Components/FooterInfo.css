@@ -1,0 +1,144 @@
+/* Imported google font */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kdam+Thmor+Pro&family=Roboto:wght@100&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Charis+SIL&family=Dancing+Script:wght@500&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;1,100&family=Source+Sans+Pro&family=Stylish&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    transition:0.5s;
+    box-sizing:border-box;
+}
+
+.footer-info .container{
+
+    position: relative;
+    top: 80vh;
+    width:100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(254, 207, 204);
+    margin-top: 20px;
+}
+.footer-info .container .top-content{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-info .container .top-content .left-content{
+    width: 10%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-info .container .top-content .left-content .icons{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info .container .top-content .left-content .icons a{
+    width: 80%;
+    height: 70%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(255, 173, 156); */
+}
+@media screen and (max-width:700px){
+    .footer-info .container .top-content .left-content .icons a{
+        width: 60%;
+        height: 70%;
+    } 
+}
+.footer-info .container .top-content .left-content .icons a img{
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.footer-info .container .top-content .left-content .icons a img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+.footer-info .container .top-content .middle-content{
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.footer-info .container .top-content .middle-content p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+}
+.footer-info .container .top-content .middle-content .title{
+    width: 70%;
+    color: rgb(232, 7, 86);
+    font-family: 'Charis SIL', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info .container .top-content .right-content{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+.footer-info .container .top-content .right-content p{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    padding:px 10px;
+}
+.footer-info .container .top-content .right-content .title{
+    width: 60%;
+    color: rgb(232, 7, 86);
+    font-family: 'Charis SIL', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-info .container .bottom-content{
+    width: 90%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-info .container .bottom-content p{
+    color: rgb(219, 38, 80);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+}

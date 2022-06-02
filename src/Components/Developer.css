@@ -1,0 +1,32 @@
+/* Imported google font */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Charis+SIL&family=Dancing+Script:wght@500&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Parisienne&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;1,100&family=Source+Sans+Pro&family=Stylish&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    transition:0.5s;
+    box-sizing:border-box;
+}
+
+.developer .container{
+
+    position: relative;
+    top: 77vh;
+    width:100vw;
+    height: 10vh;
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 105, 105);
+    margin-top: 20px;
+}
+.developer .container span{
+    color: white;
+}

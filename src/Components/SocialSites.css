@@ -1,0 +1,85 @@
+/* Imported google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@500&family=Kaushan+Script&family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;1,100&family=Source+Sans+Pro&family=Stylish&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    transition:0.5s;
+    box-sizing:border-box;
+}
+
+.social-site .container{
+
+    position: relative;
+    top: 80vh;
+    width:100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border-top: 2px solid rgb(251, 144, 130); */
+    /* background-color: rgb(0, 0, 0); */
+    margin-top: 20px;
+}
+.social-site .container .top-content{
+    width: 90%;
+    height: 22%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(204, 197, 197);
+    border-radius: 2rem;
+    background-color: rgb(249, 170, 155);
+}
+.social-site .container .bottom-content{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.social-site .container .bottom-content .icons{
+    width: 30%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-site .container .bottom-content .icons a{
+    width: 30%;
+    height: 70%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color: rgb(255, 173, 156);
+}
+@media screen and (max-width:700px){
+    .social-site .container .bottom-content .icons a{
+        width: 60%;
+        height: 70%;
+    } 
+}
+.social-site .container .bottom-content .icons a img{
+    width: 80px;
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.social-site .container .bottom-content .icons a img:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}

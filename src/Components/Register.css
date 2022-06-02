@@ -1,0 +1,68 @@
+/* Imported google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;1,100&family=Source+Sans+Pro&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kdam+Thmor+Pro&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@0,100;1,100&family=Source+Sans+Pro&family=Stylish&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    transition:0.5s;
+    box-sizing:border-box;
+}
+
+.register .container{
+
+    position: relative;
+    top: 30vh;
+    width:100vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    background-color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.register .container .des{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.register .container .des p{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+.register .container .des p:nth-child(2n){
+    color: rgb(173, 255, 47);
+}
+.register .container .btn{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.register .container .btn button{
+    padding: 6px 20px ;
+    border-radius: 2rem;
+    color: rgb(255, 96, 96);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    text-transform: capitalize;
+    letter-spacing: 1.2px;
+    background-color: rgb(177, 255, 229);
+}
+.register .container .btn button:hover{
+    cursor: pointer;
+    background-color: rgb(173, 255, 47);
+}

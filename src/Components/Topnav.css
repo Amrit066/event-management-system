@@ -1,0 +1,72 @@
+/* Imported google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@100&family=Stylish&display=swap');
+
+/* General property */
+*{
+    margin:0;
+    padding:0;
+    transition:0.5s;
+    box-sizing:border-box;
+}
+
+.top-nav .container{
+    width:100vw;
+    height:15vh ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgb(255, 130, 123);
+    background-color: rgb(254, 207, 204);
+}
+.top-nav .container .content{
+    width:60%;
+    height: 90%;
+    overflow: hidden;
+}
+.top-nav .container .para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cedarville Cursive', cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    /* word-spacing: 2px; */
+    /* background-color: navajowhite; */
+}
+@media screen and (max-width: 700px) {
+    .top-nav .container .para {
+        font-size: 1rem;
+    }
+  }
+.top-nav .container .para span{
+    font-family: 'Stylish', sans-serif;
+    color: rgb(244, 106, 99);
+}
+.top-nav .container .image{
+    width:80px;
+    height: 80px;
+    border: 2px solid rgb(255, 143, 184);
+    border-radius:50%;
+    /* animation:border-glow 2s ease-in 2s infinite; */
+    background-color: rgb(255, 255, 255);
+    /* overflow: hidden; */
+}
+@keyframes border-glow{
+    25% {
+        border-color: #f8908b;
+      }
+      50% {
+        border-color: #f46a63;
+      }
+      100% {
+        border-color: #FF4136;
+      }
+}
+.top-nav .container .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

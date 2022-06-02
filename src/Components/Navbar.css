@@ -1,0 +1,73 @@
+/* Imported google font */
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Kdam+Thmor+Pro&family=Roboto:wght@100&family=Stylish&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    transition:0.5s;
+    box-sizing:border-box;
+}
+
+.nav .container{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(255, 239, 235);
+
+    /* border-bottom: 2px solid red; */
+}
+
+/* CSS FOR LEFT CONTENT */
+.nav .container .left-content{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav .container .left-content ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav .container .left-content ul a{
+    color: rgb(38, 40, 43);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-decoration: none;
+}
+.nav .container .left-content ul a:hover{
+    cursor: pointer;
+    color: rgb(245, 97, 97);
+}
+.nav .container .left-content ul .active{
+    color: rgb(118, 120, 124);
+}
+
+/* CSS FOR RIGHT CONTENT */
+.nav .container .right-content{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: rgb(255, 239, 235); */
+}
+.nav .container .right-content button{
+    width: 7rem;
+    padding: 8px;
+    color: rgb(252, 126, 126);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-radius: 1.5em;
+    /* border-color: rgb(252, 126, 126); */
+    background-color: rgb(165, 241, 212);
+}
+.nav .container .right-content button:hover{
+    cursor: pointer;
+    background-color: rgb(94, 248, 189);
+}

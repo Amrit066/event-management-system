@@ -1,0 +1,36 @@
+
+*{
+    margin:0;
+    padding:0;
+    transition:1.5s;
+    box-sizing:border-box;
+}
+
+.hero-section .container{
+
+    position: relative;
+    top: 25vh;
+    width:100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(30deg #861657 0%, #ffa69e 74%);
+    animation:blink 12s infinite;
+}
+@keyframes blink{
+    0%{background: linear-gradient(30deg,  #fce043 0%, #fb7ba2 74%);}
+    25%{background: linear-gradient(30deg,  #fce043 0%, #7bfb99 74%);}
+    50%{background: linear-gradient(30deg,  #7bfb99  0%, #fb7ba2 74%);}
+    75%{background: linear-gradient(30deg,  #ff418a 0%, #7bfbd9 74%);}
+    100%{background: linear-gradient(30deg,  #9ffc43 0%,#7bfbd9  74%);}
+
+}
+.hero-section .container img{
+    width:60vw;
+    height: 60vh;
+    /* object-fit: cover; */
+    border-radius: 8px;
+}
+
+
